@@ -1,0 +1,91 @@
+
+body {
+    background-image: url("bubble.png");
+    background-color: rgb(244, 248, 247);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_h1{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #060311; 
+    font-family: 'Rouge Script', cursive; 
+    font-size: 50px; 
+    font-weight: normal; 
+    line-height: 48px;
+    text-align: center; 
+    text-shadow: 1px 1px 2px #082b34;
+}
+
+#register_main {
+    background: rgb(255, 255, 255);
+    max-width: 600px;
+    margin:auto;
+    border-radius: 4% 4% 4% 4%;
+    box-shadow: 0 0 0 1px rgb(0, 0, 0, 0.1), 
+                0 0 0 1px rgb(0, 0, 0, 0.1);
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+#register_form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.label_td {
+    color: #181d25; 
+    font-size: 25px; 
+    font-family: "Libre Baskerville", serif; 
+    /* line-height: 45px; */
+    text-align: left; 
+    text-shadow: 0 1px 1px rgba(183, 189, 184, 0.952); 
+    padding-bottom: 20px; 
+    width: 350px;
+}
+
+.input_td{
+    text-align: right;
+    width: 350px;
+}
+
+.form_input{
+    height: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 270px;
+}
+
+
+#date_input{
+    text-align: center;
+}
+
+#time_input{
+    text-align: center;
+}
+
+.div_button{
+    text-align: center;
+}
+
+#submit_input{
+    margin-top: 50px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: solid 1px rgb(16, 53, 133);
+    font-size: 20px;
+    border-radius: 8px;
+ 
+}
+
+#submit_input:hover{
+    transition-duration: 1s;
+    background-color: rgb(146, 175, 236);
+}
