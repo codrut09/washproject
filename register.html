@@ -1,72 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="assets/css/register.css">
 </head>
 
 <body>
-    
-
-    <main id="register_main">
-        <h1 class="main_h1">Register page</h1>
-        <form id="register_form" action="" method="POST"> 
-            <table >
-
-                <tr>
-                    <td class="label_td">Full name:</td>
-                    <td class="input_td">
-                        <input type="text" id="name_input" class="form_input" minlength="5" maxlength="150" required placeholder="Name">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td class="label_td">E-mail:</td>
-                    <td class="input_td">
-                        <input type="email" id="email_input" class="form_input" minlength="5" maxlength="150" required placeholder="E-mail">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td class="label_td">Phone number:</td>
-                    <td class="input_td">
-                        <input type="tel" id="phone_input" class="form_input" minlength="10" maxlength="14" required pattern="[+][4][0][0-9]{10}" placeholder="+40741511663">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td class="label_td">Car type:</td>
-                    <td class="input_td">
-                        <input type="text" id="car_input" class="form_input" minlength="5" maxlength="10" required placeholder="Car type">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td class="label_td">Pick-up address:</td>
-                    <td class="input_td">
-                        <input type="text" id="address_input" class="form_input" minlength="5" maxlength="150" required placeholder="Address">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td class="label_td">Pick-up date:</td>
-                    <td class="input_td">
-                        <input type="date" id="date_input" class="form_input" required>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td class="label_td">Pick-up time:</td>
-                    <td class="input_td">
-                        <input type="time" id="time_input" class="form_input" min="09:00" max="20:00" required>
-                    </td>
-                </tr>
-
-            </table>
-
+    <main>
+        <h1>Register page</h1>
+        <form>
+            <div class="form_div">
+                <label for="name_input">Full name:</label>
+                <input type="text" id="name_input" minlength="5" maxlength="150" required placeholder="Name">
+            </div>
+            <div class="form_div">
+                <label for="email_input">E-mail:</label>
+                <input type="email" id="email_input" minlength="5" maxlength="150" required placeholder="E-mail">
+            </div>
+            <div class="form_div">
+                <label for="phone_input">Phone number:</label>
+                <input type="tel" id="phone_input" minlength="10" maxlength="14" required pattern="[+][4][0][0-9]{9}"
+                    placeholder="+40741511663">
+            </div>
+            <div class="form_div">
+                <label for="car_input">Car type:</label>
+                <input type="text" id="car_input" minlength="5" maxlength="10" required placeholder="Car type">
+            </div>
+            <div class="form_div">
+                <label for="address_input">Pick-up address:</label>
+                <input type="text" id="address_input" minlength="5" maxlength="150" required placeholder="Address">
+            </div>
+            <div class="form_div">
+                <label for="date_input">Pick-up date:</label>
+                <input type="date" id="date_input" required>
+            </div>
+            <div class="form_div">
+                <label for="time_input">Pick-up time:</label>
+                <input type="time" id="time_input" min="09:00" max="20:00" required>
+            </div>
             <div class="div_button">
                 <input id="submit_input" class="button" type="submit" value="Submit">
             </div>
-
         </form>
     </main>
 </body>
